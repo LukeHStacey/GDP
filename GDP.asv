@@ -1,0 +1,3 @@
+%Doing some matlab innit
+
+char(getKmers('hello worlds', 3))
