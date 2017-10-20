@@ -1,0 +1,13 @@
+function newMertrix=recalcMertrix(mertrix,idx)
+    N=length(mertrix);
+    
+    newMertrix=mertrix;
+    newMertrix(:,idx)=[];
+    newMertrix(idx,:)=[];
+    mertrix=mertrix(:,idx)
+    for i=1:N-2
+        newVect(
+    end
+    
+    newMertrix=[-1 newVect(N-1,1) ;-1*ones(1,N-1) newMertrix];
+end
